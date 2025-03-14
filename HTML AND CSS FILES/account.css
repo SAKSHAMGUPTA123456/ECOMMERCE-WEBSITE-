@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('photos/img.jpg');
+    background-size: cover;
+}
+.cart{
+    width: 40px;
+}
+.cart:hover{
+    background-color: aqua;}
+.home{
+    padding-top: 20px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    margin-right: 30px;
+    color: aqua;
+}
+.product:active{
+    color: burlywood;
+}
+.account{
+    margin-right: 30px;
+    color: aqua;
+    text-decoration: underline;
+}
+.account:active{
+    color:burlywood;
+}
+.about{
+    margin-right: 30px;
+    color: aqua;
+}
+.about:active{
+    color: burlywood;
+}
+.home1{
+    margin-right:30px ;
+    color: aqua;
+}
+.home1:active{
+    color: burlywood;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color: rgb(172, 35, 58);
+}
+.forgot{
+    color: aliceblue;
+    font-size: 15px;position: relative;
+    bottom: 20px;
+    left: 280px;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.loginforgot{
+    width: 200px;
+    border-radius: 30px;
+    height: 40px;
+    margin-left: 90px;
+}
+.me{
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 23px;
+}
+.login{
+    border: 2px solid wheat;
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 100px;
+    backdrop-filter: blur(20px);
+box-shadow: 0px 0px 200px 0px gray;
+}
+.checkbox1{
+position: relative;
+right: 300px;
+top: 50px;
+}
+span{
+    color: aliceblue;
+    position: absolute;
+    top: 360px;
+    right: 100px;
+}
+span:hover{
+    text-decoration: underline;
+}
+.login1{
+    color: aliceblue;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.username{
+    width: 250px;
+    height: 33px;
+    border-radius: 30px;
+margin-left: 65px;
+margin-top: 50px;
+opacity: 0.6;
+background-image: url('photos/img.jpg');
+}
+.username::placeholder{
+    color: white;
+}
+input{
+    color: aliceblue;
+}
+.password{
+    width: 250px;
+    height: 33px;
+    border-radius: 30px;
+margin-left: 65px;
+margin-top: 50px;
+opacity: 0.6;
+background-image: url('photos/img.jpg');
+}
+.password::placeholder{
+    color: aliceblue;
+}
+input{
+    color: aliceblue;
+}

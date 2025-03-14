@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #c8ece0;;
+}
+.home{
+    padding-top: 20px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: black;
+ 
+}
+.product{
+    margin-right: 30px;
+    color: white;
+}
+.product:hover{
+    color: aqua;
+}
+.product:active{
+    color: burlywood;
+}
+.account{
+    margin-right: 30px;
+    color: white;
+    
+}
+.account:hover{
+    color: aqua;
+}
+.account:active{
+    color:burlywood;
+}
+.about{
+    margin-right: 30px;
+    color: white;
+    text-decoration: underline;
+}
+.about:hover{
+    color: aqua;
+}
+.about:active{
+    color: burlywood;
+}
+.home1{
+    margin-right:30px ;
+    color: white;
+}
+.too1{
+    color:#0f503a;
+}
+.too2{
+color:#0f503a;
+}.too{
+    color:#0f503a;
+}
+.home1:hover{
+    color: aqua;
+}
+.features1{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+}
+.our{
+     color: #0f503a;
+     position: relative;
+     top:50px;
+right: 170px;
+    }
+.feature{
+    color:#0f503a;
+    text-decoration: underline;
+}
+.home1:active{
+    color: burlywood;
+}
+.null3{
+    color: aqua;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.cart123{
+    width: 50px;
+}
+.cart123{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+
+
+.box1{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    box-shadow: 20px 20px 20px  black;
+}
+
+.box2{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 20px  black;
+}
+.box3{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    box-shadow: 20px 20px 20px  black;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+.communications{
+    width: 100px;
+    margin-left: 90px;
+}
+.null2{
+    color: aqua;
+    margin-left: 55px;
+}
+.null{
+    color: aqua;
+    margin-left: 50px;
+}
+.smile{
+width: 100px;
+margin-left: 90px;
+}
+.design{
+width: 100px;
+margin-left: 90px;
+}

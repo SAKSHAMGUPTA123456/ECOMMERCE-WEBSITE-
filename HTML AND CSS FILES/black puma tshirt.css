@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cart{
+    width: 40px;
+    margin-bottom: 10px;
+}
+.image1{
+    width: 300px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.cart:hover{
+    background-color: aqua;}
+.home{
+    padding-top: 20px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    margin-right: 30px;
+    color: black;
+}
+.product:active{
+    color: burlywood;
+}
+.account{
+    margin-right: 30px;
+    color: black;
+    text-decoration: underline;
+}
+.account:active{
+    color:burlywood;
+}
+.about{
+    margin-right: 30px;
+    color: black
+}
+.about:active{
+    color: burlywood;
+}
+.home1{
+    margin-right:30px ;
+color: black;
+}
+.home1:active{
+    color: burlywood;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color: rgb(172, 35, 58);
+}
+header{
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px gray;
+   
+}
+.items{
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+}
+.course{
+    margin-top: 50px;
+}
+.add{
+    background-color: chocolate;
+    border-radius: 20px;
+    width: 120px;
+    position: relative;
+    top: 30px;
+    right: 50px;
+}
+.hacker{
+    position: relative;
+    width: 50px;
+    top: 30px;
+    right: 70px;
+}
+.ruppes{
+    margin-top: 30px;
+}

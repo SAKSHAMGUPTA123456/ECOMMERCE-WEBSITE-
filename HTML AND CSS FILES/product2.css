@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 700px;
+    overflow-x: hidden;
+}
+.exclusive{
+    color: aqua;
+    position: relative;
+    top: 100px;
+    left: 450px;
+}
+.home{
+    padding-top: 20px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.product{
+    margin-right: 30px;
+    color: white;
+    text-decoration: underline;
+}
+.product:hover{
+    color: aqua;
+}
+.product:active{
+    color: burlywood;
+}
+.account{
+    margin-right: 30px;
+    color: white;
+}
+.account:hover{
+    color: aqua;
+}
+.account:active{
+    color:burlywood;
+}
+.about{
+    margin-right: 30px;
+    color: white;
+}
+.about:hover{
+    color: aqua;
+}
+.about:active{
+    color: burlywood;
+}
+.home1{
+    margin-right:30px ;
+    color: white;
+}
+.home1:hover{
+    color: aqua;
+}
+.home1:active{
+    color: burlywood;
+}
+.cart123{
+    width: 50px;
+}
+.cart123{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zie{
+    color: gray;
+    margin-top: 10px;
+}
+.cart{
+    background-color: rgba(219, 114, 29, 0.705);
+ position: relative;
+ top: 20px;
+ right: 90px;
+}
+.buy{
+    background-color: rgb(165, 130, 34);
+    position: relative;
+    top: 18px;
+    right: 50px;
+}
+.op{
+    background-color: purple;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+}
+.iphone1{
+    background-color: black;
+    width: 800px;
+    height: 630px;
+}
+.iphone{
+    position: relative;
+    left: 500px;
+    top: 120px;
+    width: 250px;
+}
+.rupees{
+    color: gray;
+    margin-top: 20px;
+}
+.apple{
+    position: relative;
+    left: 900px;
+    bottom: 500px;
+}
+.write{
+    color: gray;
+    margin-top: 20px;
+}
+.brand{
+    background-color: green;
+}

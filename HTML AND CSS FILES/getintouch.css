@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.us{
+  position: relative;
+  top: 70px;
+  right: 50px;
+  color: aliceblue;
+}
+.name::placeholder{
+    position: relative;
+    left: 20px;
+}
+.in{
+    margin-left: 200px;
+    margin-top: 180px;
+    color: aliceblue;
+}
+.msg::placeholder{
+    position: relative;
+    left: 20px;
+}
+.email::placeholder{
+    position: relative;
+    left: 20px;
+}
+.arrow{
+    width: 50px;
+}
+.go{
+    color: aliceblue;
+}
+
+.msg{
+    width: 400px;
+    box-shadow: 10px  10px 10px 10px gray;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.needs{
+    margin-top: 80px;
+    color: aliceblue;
+}
+.name{
+    width: 400px;
+    box-shadow: 10px 10px 10px 10px gray;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.email{
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+.get{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 400px;
+}
+.submit{
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 400px;
+    height: 40px;
+    background-color: rgb(58, 58, 233);
+    border-radius: 20px;
+}
+body{
+    background-image: url('photos/img.jpg');
+}

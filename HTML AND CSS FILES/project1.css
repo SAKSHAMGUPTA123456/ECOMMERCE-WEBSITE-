@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 5000px;
+    overflow-x: hidden;
+
+
+}
+.logo{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.home{
+    padding-top: 20px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    margin-right: 30px;
+}
+.account{
+    margin-right: 30px;
+}
+.about{
+    margin-right: 30px;
+}
+.home1{
+    margin-right:30px ;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color: rgb(172, 35, 58);
+}
+.picture{
+    width: 450px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.written{
+    font-size: small;
+}
+.workout{
+    font-size: 40px;
+}
+.style{
+    font-size: 30px;
+}
+.written2{
+    margin-top: 161px;
+    margin-left: 131px;
+}
+.button1{
+    border-radius: 30px;
+    width:100px;
+    height: 20px;
+    background-color: #ff523b;
+    color: white;
+position: relative;
+right:5px;
+top: 10px;   
+transition: background-color 0.5s;
+}
+.button1:hover{
+    background: #563434;
+}
+header{
+    background: radial-gradient(#fff,#ffd6d6);
+    height: 630px;
+}
+.cart{
+    width: 40px;
+    position: relative;
+    bottom: 10px;
+}
+.cart:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+.image45{
+width:270px;
+   
+}
+.image46{
+   width: 270px;
+   margin-left: 30px;
+}
+.image47{
+    width: 270px;
+    margin-left: 30px;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.third1{
+    width: 200px;
+    height:265px;
+  
+}
+.third2{
+    width: 200px;
+    margin-left: 20px;
+}
+.third2:hover{
+    transform: translateY(-5px);
+}
+.third3{
+    width: 200px;
+    margin-left: 20px;
+}
+.third3:hover{
+    transform: translateY(-5px);
+}
+.third4{
+    width: 200px;
+    margin-left: 20px;
+}
+.third4:hover{
+    transform: translateY(-5px);
+}
+.third1:hover{
+    transform: translateY(-5px);
+}
+.products{
+    font-size: 20px;
+ text-align: center;
+ position: relative;
+ top: 30px;
+ color: #555;
+ text-decoration: underline;
+}
+.products::after{
+    content: '';
+    background: #ff523b;
+    width: 100px;
+    border-radius: 5px;
+    position:absolute;
+
+}
+.look{
+    width: 30px;
+}
+
+.look1{
+    width: 30px;
+}
+.look2{
+    width: 30px;
+}
+.look3{
+    width: 30px;
+}
+.look4{
+    width: 20px;
+}
+.shoes1{
+    margin-left: 20px;
+}
+.blackpant{
+    margin-left: 20px;
+}
+.blueshirt{
+    margin-left: 20px;
+}
+.latest{
+    position: relative;
+    left: 600px;
+    top: 60px;
+color: #555;
+text-transform: uppercase;
+text-decoration: underline;
+
+}
+.watch{
+    width: 400px;
+   position: relative;
+   right: 100px;
+   top: 100px;
+}
+.offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: #ffd6d6;
+height: 500px;
+}
+.redstore{
+    position: relative;
+    top: 100px;
+}
+.rating{
+    width: 80px;
+    height: 40px;
+    background-color: #ff523b;
+    border-radius: 30px;
+    position: relative;
+    top: 220px;
+    right:450px;
+    transition: background-color 0.5s;
+
+}
+.rating:hover{
+    background-color: gray;
+}
+.hyper{
+    text-align: center;
+ margin-top: 50px;
+   text-decoration: underline;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rewiew1{
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.angle{
+position: relative;
+bottom: 250px;
+left: 600px;
+}
+.action{
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.google{
+    font-size: 80px;
+    position: relative;
+    bottom: 213px;
+    left: 587px;
+}
+.rewiew2{
+    margin-left: 982px;
+    width: 250px;
+}
+.action2{
+    position: relative;
+    left: 1050px;
+    font-size: 30px;
+}
+.look26,
+.look36,
+.look16,
+
+.look6{
+    width: 30px;
+}
+.stars{
+    position: relative;
+    left: 589px;
+    bottom: 240px;
+}
+.look46{
+    width:30px;
+    position: relative;
+    top: 2px;
+}
+.photo3{
+    width:250px;
+}
+.brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+.last{
+    border: 2px solid gray;
+    height: 500px;
+
+}
+.col5{
+    width:200px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col5:hover{
+    filter: grayscale(0%);
+}
+footer{
+    background-color: black;
+    height: 324px;
+}
+.redst{
+    width: 150px;
+    position: relative;
+    left: 500px;
+    top: 90px;
+}
+.purpose{
+    color: gray;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.purpose1{
+    color: gray;
+    position: relative;
+    top: 10px;
+    left: 476px;
+ 
+}
+hr{
+  color: gray;
+  margin-top: 50px;
+}
+.appstore{
+    width: 100px;
+    margin-left: 40px;
+}
+.play{
+    width: 100px;
+}
+
+.icons12{
+    position: relative;
+    bottom: 90px;
+    left: 150px;
+}
+.play1{
+    color: #555;
+    font-size: 20px;
+    position: relative;
+bottom: 85px;
+left: 135px;
+}
+.app1{
+    color: #555;
+    font-size: 20px;
+position: relative;
+bottom: 112px;
+left: 291px;
+}
+

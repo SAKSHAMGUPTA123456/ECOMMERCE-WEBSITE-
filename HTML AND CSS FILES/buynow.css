@@ -1,0 +1,14 @@
+.watches{
+    width: 300px;
+    position: relative;
+    top: 150px;
+    left: 400px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(216, 133, 9);
+}
